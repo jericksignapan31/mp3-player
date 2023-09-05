@@ -1,3 +1,29 @@
-<div class="container"> 
-
+<div class="container">
+  <div class="content">
+    <div class="controller">
+      <div class="monitor"></div>
+      <div class="minute-bar"></div>
+      <div class="contols">
+        <span class="rigth-controller">
+          <img src="../../../assets/svg/prev.svg" alt="" />
+          <img src="../../../assets/svg/play.svg" alt="" />
+          <img src="../../../assets/svg/next.svg" alt="" />
+          <img src="../../../assets/svg/volume.svg" alt="" />
+        </span>
+        <span class="left-controller">
+          <img src="../../../assets/svg/share.svg" alt="" />
+          <img src="../../../assets/svg/shuffle.svg" alt="" />
+          <img src="../../../assets/svg/repeat.svg" alt="" />
+        </span>
+      </div>
+    </div>
+    <div class="playlist">
+      <div class="music" *ngFor="let control of controls">
+        <span class="numbers-of-music">{{ control.number }}</span>
+        <span class="singer">{{ control.singer }}</span>
+        <span class="title"> {{ control.title }}</span>
+        <span class="time-range">{{ control.range }}</span>
+      </div>
+    </div>
+  </div>
 </div>

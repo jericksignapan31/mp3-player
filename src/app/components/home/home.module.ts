@@ -7,4 +7,9 @@ import { HomeRoutingModule } from './home-routing.module';
   declarations: [HomeComponent],
   imports: [CommonModule, HomeRoutingModule],
 })
-export class HomeModule {}
+export class HomeModule {
+
+
+}
+
+

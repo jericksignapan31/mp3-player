@@ -15,12 +15,9 @@ $primary-cyan: #00adb5;
 
 body {
   font-family: $primary-font;
-  background-image: url(../../mp3-player/src/assets/png/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../../mp3-player/src/assets/png/bg-2.jpg);
   font-size: 1rem;
   color: $color;
   min-height: 100vh;
   line-height: 1.5;
-  padding: 0rem 7.5rem;
 }
